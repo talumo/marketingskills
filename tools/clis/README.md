@@ -77,6 +77,7 @@ Every CLI reads credentials from environment variables:
 | `segment` | `SEGMENT_WRITE_KEY` (tracking), `SEGMENT_ACCESS_TOKEN` (profile) |
 | `semrush` | `SEMRUSH_API_KEY` |
 | `sendgrid` | `SENDGRID_API_KEY` |
+| `shopify-census` | `SHOPIFY_STORE_DOMAIN`, `SHOPIFY_ACCESS_TOKEN`, `SHOPIFY_API_VERSION` (optional) |
 | `tiktok-ads` | `TIKTOK_ACCESS_TOKEN`, `TIKTOK_ADVERTISER_ID` |
 | `tolt` | `TOLT_API_KEY` |
 | `trustpilot` | `TRUSTPILOT_API_KEY`, `TRUSTPILOT_API_SECRET`, `TRUSTPILOT_BUSINESS_UNIT_ID` |
@@ -178,6 +179,7 @@ DOMAINS=$(rewardful affiliates list | jq -r '.data[].email')
 | `segment.js` | Analytics | [Segment](https://segment.com) |
 | `semrush.js` | SEO | [SEMrush](https://semrush.com) |
 | `sendgrid.js` | Email | [SendGrid](https://sendgrid.com) |
+| `shopify-census.js` | Ecommerce | [Shopify](https://shopify.com) catalog export + GMC attribute census |
 | `snov.js` | Email Outreach | [Snov.io](https://snov.io) |
 | `tiktok-ads.js` | Ads | [TikTok Ads](https://ads.tiktok.com) |
 | `tolt.js` | Referral | [Tolt](https://tolt.io) |

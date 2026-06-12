@@ -36,6 +36,7 @@ Quick reference for AI agents to discover tool capabilities and integration meth
 | salesforce | CRM | ✓ | - | ✓ | ✓ | [salesforce.md](integrations/salesforce.md) |
 | close | CRM | ✓ | - | [✓](clis/close.js) | - | [close.md](integrations/close.md) |
 | stripe | Payments | ✓ | ✓ | ✓ | ✓ | [stripe.md](integrations/stripe.md) |
+| shopify-gmc-enrichment | Ecommerce | ✓ | ✓ | [✓](clis/shopify-census.js) | - | [shopify-gmc-enrichment.md](integrations/shopify-gmc-enrichment.md) |
 | paddle | Payments | ✓ | - | [✓](clis/paddle.js) | ✓ | [paddle.md](integrations/paddle.md) |
 | rewardful | Referral | ✓ | - | [✓](clis/rewardful.js) | - | [rewardful.md](integrations/rewardful.md) |
 | tolt | Referral | ✓ | - | [✓](clis/tolt.js) | - | [tolt.md](integrations/tolt.md) |
