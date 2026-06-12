@@ -87,7 +87,6 @@ Quick reference for AI agents to discover tool capabilities and integration meth
 | onesignal | Push | ✓ | - | [✓](clis/onesignal.js) | ✓ | [onesignal.md](integrations/onesignal.md) |
 | demio | Webinar | ✓ | - | [✓](clis/demio.js) | - | [demio.md](integrations/demio.md) |
 | livestorm | Webinar | ✓ | - | [✓](clis/livestorm.js) | - | [livestorm.md](integrations/livestorm.md) |
-| shopify | Commerce | ✓ | - | ✓ | ✓ | [shopify.md](integrations/shopify.md) |
 | wordpress | CMS | ✓ | - | ✓ | ✓ | [wordpress.md](integrations/wordpress.md) |
 | webflow | CMS | ✓ | - | ✓ | ✓ | [webflow.md](integrations/webflow.md) |
 | sanity | Headless CMS | ✓ | - | ✓ | ✓ | [sanity.md](integrations/sanity.md) |
@@ -424,18 +423,17 @@ Marketing data pipeline tools that connect multiple platforms for unified report
 
 ### Commerce & CMS
 
-E-commerce platforms and content management systems.
+Content management systems.
 
 | Tool | Best For | CLI Available |
 |------|----------|:-------------:|
-| **shopify** | E-commerce, product sales | ✓ |
 | **wordpress** | Blogs, content sites | ✓ |
 | **webflow** | Design-focused marketing sites | ✓ |
 | **sanity** | Headless CMS, structured content | ✓ |
 | **contentful** | Enterprise headless CMS, multi-locale | ✓ |
 | **strapi** | Open-source headless CMS, self-hosted | ✓ |
 
-**Agent recommendation**: Shopify for e-commerce. Webflow for marketing sites. WordPress for blogs. For headless CMS: Sanity for developer-flexible content, Contentful for enterprise multi-locale, Strapi for self-hosted/budget-conscious. See [headless CMS guide](../skills/content-strategy/references/headless-cms.md) for selection criteria.
+**Agent recommendation**: Webflow for marketing sites. WordPress for blogs. For headless CMS: Sanity for developer-flexible content, Contentful for enterprise multi-locale, Strapi for self-hosted/budget-conscious. See [headless CMS guide](../skills/content-strategy/references/headless-cms.md) for selection criteria. For e-commerce, see the [Shopify GMC repository](https://github.com/tkhughes2017/Shopify-GMC).
 
 ---
 
